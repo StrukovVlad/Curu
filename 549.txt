@@ -1,0 +1,11 @@
+Когда-то все мы вырастим,
+И станем взрослыми,
+И будем нежно вспоминать свое детство
+Жаль, что детство мы не ценим,
+Т.к. это не понимаем
+
+The Singleton pattern is used to ensure that a class has only one instance and provides
+a global access point to that instance . in this example, the Singleton class has a private
+class attribute __instance that is used to store the instance of yhe class.
+The __init__ method checks if an instance has already been created , and if not,
+it creates one.The getInstance method is a class method that returns the instance of the class.
